@@ -1,0 +1,48 @@
+# Build directories
+build/
+cmake-build-*/
+.vscode/
+.idea/
+
+# Compiled executables and libraries
+minidb
+*.exe
+*.a
+*.so
+*.dylib
+*.dll
+
+# Object files
+*.o
+*.obj
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# IDE files
+*.user
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# History and temporary files
+.minidb_history
+*.tmp
+*.temp
+*.log
+
+# Test outputs
+test_runner
+minidb_tests
+
+# Data files
+*.db
+data/*.txt
